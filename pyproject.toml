@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-experiments"
+version = "0.1.0"
+description = ""
+authors = ["chenglong.wang <tiny.wcl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.17"
+langchain-community = "^0.0.36"
+langchain-openai = "^0.1.3"
+langchain-experimental = "^0.0.58"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
